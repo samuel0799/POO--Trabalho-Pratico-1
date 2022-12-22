@@ -19,7 +19,7 @@ public class Servicos {
 
     public static double calculaInstalacao(Porta Porta) {
         double custo= 0.0;
-        double metroQuad = (Porta.getAltura()*Porta.getAltura());
+        double metroQuad = (Porta.getAltura()*Porta.getLargura());
         if (Porta.tipoPorta==TipodePorta.PORTA_LUXO&&Porta.pivotante==true) {
             custo = (custoMetro*metroQuad)+TAXA_PIVOTANTE;
             custo = custo+(custo*0.1)/100;
