@@ -9,6 +9,13 @@
             "name": "Launch Stringspossiveis",
             "request": "launch",
             "mainClass": "peixoto.poo.trabalho1.quest1.Stringspossiveis",
+            "projectName": "Quest-14.17-String5to3_3cfb9890"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringspossiveis",
+            "request": "launch",
+            "mainClass": "peixoto.poo.trabalho1.quest1.Stringspossiveis",
             "projectName": "Quest-14.19-String5to3_1c2cdf91"
         },
         {

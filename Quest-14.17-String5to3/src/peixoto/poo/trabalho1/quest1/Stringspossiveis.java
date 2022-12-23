@@ -7,6 +7,7 @@ import java.util.LinkedHashSet;
 import javax.swing.JOptionPane;
 
 public class Stringspossiveis {
+    
     public static void main(String[] args) {
         HashSet<String> Lista_combinacoes = new LinkedHashSet<String>();
         String Str_5 = "";
@@ -18,10 +19,11 @@ public class Stringspossiveis {
                         "Tamanho inválido da palavra, a palavra precisa ter 5 letras, insira novamente.", "Erro", 2);
             }
 
+            else {
             Combinacao(Lista_combinacoes, Str_5, "", 5, 3);
             for (String Str_3 : Lista_combinacoes) {
                 System.out.println(Str_3);
-
+            }
             }
             
 
